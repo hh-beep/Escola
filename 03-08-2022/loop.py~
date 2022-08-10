@@ -1,0 +1,22 @@
+import random
+
+
+randomNum = random.randint(1, 6)
+
+print(randomNum)
+
+resp = int(input("Digite um numero entre 1 a 6:   "))
+
+
+
+
+while (  resp != randomNum  ):
+    resp = int(input("Errou, digite novamente:   "))
+
+#for num in nums:
+#    print(num)
+
+print(  resp, randomNum  )
+
+
+
